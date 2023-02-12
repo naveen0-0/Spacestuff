@@ -32,7 +32,6 @@ const useQueryHandler = <TData, TError>(
       return false;
     },
     refetchOnWindowFocus: false,
-
     ...options,
   });
 
