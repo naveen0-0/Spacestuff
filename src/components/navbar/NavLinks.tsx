@@ -2,7 +2,7 @@ import { NAVBAR_LINKS } from "@/utils/constants";
 
 const NavLinks = () => {
   return (
-    <div className="absolute bg-slate-400 right-0 min-w-[200px] shadow-md shadow-slate-700 p-1 rounded-md flex flex-col gap-1">
+    <div className="z-30 absolute bg-slate-400 right-0 min-w-[200px] shadow-md shadow-slate-700 p-1 rounded-sm flex flex-col gap-1">
       {NAVBAR_LINKS.map((link) => (
         <a
           href={link.link}
