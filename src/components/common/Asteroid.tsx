@@ -1,6 +1,5 @@
 import { IAsteroidListItem } from "@/types";
 import Link from "next/link";
-import { useRouter } from "next/router";
 
 interface Props {
   asteroid: IAsteroidListItem;
