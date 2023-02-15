@@ -35,3 +35,14 @@ export const getSpecificAsteroid = async (id: string) => {
     throw error;
   }
 };
+
+export const getRoverPhotos = async (searchDate: string) => {
+  try {
+    let { data } = await axios.get(
+      `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=${searchDate}&api_key=${process.env.NEXT_PUBLIC_NASA_API_KEY}`
+    );
+    return data;
+  } catch (error) {
+    throw error;
+  }
+};

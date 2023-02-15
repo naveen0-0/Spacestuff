@@ -17,7 +17,7 @@ const CloseApproachCard = ({ item }: Props) => {
       <div className="p-2">
         <div className="font-semibold">{close_approach_date_full}</div>
         <div className="font-semibold">
-          {ASTEROIDS_ORBITING_BODY_NAME[orbiting_body].toUpperCase()}
+          {ASTEROIDS_ORBITING_BODY_NAME[orbiting_body]?.toUpperCase()}
         </div>
 
         <div>

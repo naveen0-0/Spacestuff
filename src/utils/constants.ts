@@ -1,6 +1,7 @@
 export const QUERY_KEY_PICTURE_OF_THE_DAY = "pictureOfTheDay";
 export const QUERY_KEY_ASTEROIDS_DATA = "asteroidsList";
 export const QUERY_KEY_SPECIFIC_ASTEROID_DATA = "specificAsteroidData";
+export const QUERY_KEY_ROVER_PHOTOS = "getRoverPhotos";
 
 export const NAVBAR_LINKS = [
   {
@@ -10,8 +11,8 @@ export const NAVBAR_LINKS = [
   },
   {
     id: 2,
-    text: "Asteroids",
-    link: "/asteroids",
+    text: "Rover Photos",
+    link: "/rover_photos",
   },
   {
     id: 3,

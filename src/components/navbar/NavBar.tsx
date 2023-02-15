@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function NavBar() {
   let [areNavLinksVisible, setAreNavLinksVisible] = useState(false);
   return (
-    <div className="bg-slate-900">
+    <div className="bg-slate-900 fixed w-full top-0 z-50">
       <MainContainer>
         <div className="flex items-center justify-between p-6">
           <Link
