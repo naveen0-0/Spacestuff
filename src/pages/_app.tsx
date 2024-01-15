@@ -7,9 +7,9 @@ import NavBar from "@/components/navbar/NavBar";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="pb-24">
-        <NavBar />
-      </div>
+      <NavBar />
+      {/* <div className="pb-24">
+      </div> */}
       <Component {...pageProps} />
     </QueryClientProvider>
   );
