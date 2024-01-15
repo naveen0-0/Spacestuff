@@ -30,6 +30,7 @@ export default function SpecificAsteroid() {
 
   useEffect(() => {
     setEstimatedDistanceUnit(estimatedDistanceKeys[0]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isLoading]);
 
   if (isLoading || !estimatedDiatanceUnit) return <>Loading...</>;
